@@ -8,5 +8,5 @@ it('Display a number in es-es currencty format', () => {
   const formattedText = formatCurrency(value);
 
   // Assert
-  expect(formattedText).toBe('200,00 €');
+  expect(formattedText).toEqual('200,00 €');
 });
